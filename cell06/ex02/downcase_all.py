@@ -1,7 +1,7 @@
 import sys
 def downcase_it(string):
     return string.lower()
-if name == "__main__":
+if __name__ == "__main__":
     if len(sys.argv) <= 1:
         print("none")
     else:
